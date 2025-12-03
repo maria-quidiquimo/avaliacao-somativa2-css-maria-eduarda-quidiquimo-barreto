@@ -6,6 +6,7 @@
 
 h1{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 50px;
 }
 
 header{
@@ -17,21 +18,30 @@ header{
 header li{
     display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
+}
+
+.hero{
+    padding: 20px;
 }
 
 a{
     color:black;
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+}
 
+a:hover{
+    color: azure;
 }
 
 main{
-    background-color: rgb(225, 232, 238);
+    background-color: azure;
     font-family: 'Roboto', Arial, Tahoma;
 }
 
 article h4{
-    color: rgb(1, 225, 255);
+    color: black;
 }
 
 p{
@@ -39,13 +49,23 @@ p{
 }
 
 img{
-    width: 250px;
+    width: 100%;
 }
 
 .galeria{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 30;
+    gap: 20px;
+    padding: 30px;
+    color: rgb(17, 17, 146);
+}
+
+.card{
+    display: flex;
+    align-self: self-start;
+    flex-wrap: wrap;
+    width: 200px;
+    background-color: rgb(216, 222, 226);
 }
 
 footer{
@@ -54,4 +74,5 @@ footer{
     align-items: center;
     height: 60px;
     background-color: rgb(130, 200, 255);
+    font-family: 'Times New Roman', Times, serif;
 }
