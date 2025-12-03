@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(127, 195, 255);
+}
+
+header li{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+a{
+    color:black;
+
+}
+
+main{
+    background-color: rgb(225, 232, 238);
+    font-family: 'Roboto', Arial, Tahoma;
+}
+
+article h4{
+    color: rgb(1, 225, 255);
+}
+
+p{
+    color: rgb(81, 81, 81);
+}
+
+img{
+    width: 250px;
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(130, 200, 255);
+}
